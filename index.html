@@ -1,34 +1,271 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>HTML5 Audio Player</title>
-    <style>
-        #playlist{
-            list-style: none;
-        }
-        
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="..//css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/
+    font-awesome.min.css"> -->
 </head>
+
 <body>
-     <audio src="1.mp3"  id="audioPlayer" >
-    </audio>
-    <ul id="playlist">
-        <li class="current-song"><a href="1.mp3"></a></li>
-        <img src="abdo.jpg">
-                <img src="abdo.jpg">
+    <iframe height="0" width="0" src="1.mp3" frameborder="0" allowfullscreen></iframe>
+    <div class="preloader">
+        <div class="counter"> 0</div>
+    </div>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">home</a>
+                </li>
+                <li>
+                    <a href="..//src/index.html#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="..//src/index.html#skills" class="nav-link">Skills</a>
+                </li>
+                <li>
+                    <a href="..//src/index.html#services" class="nav-link">Services</a>
+                </li>
+                <li>
+                    <a href="..//src/index.html#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="..//src/index.html#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>Abdallah Khaled</h1>
+            <h6>UI / UX Designer and Web Developer</h6>
+        </div>
+    </header>
 
-               <img src="abdo.jpg">
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img" data-aos="fade-up" data-aos-delay="300">
+                <img src="..//assets/cv.jpg">
+            </div>
+            <div class="about-details" data-aos="fade-down" data-aos-delay="600">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>My self</h6>
+                </div>
+                <p class="my"> Name: Abdallah Khaled </p>
+                <p class="my"> Nationality: Egyptian </p>
+                <p class="my">Phone:+201026326246</p>
+                <p class="my">Email: abdallahkhaledlotfy@gmail.com</p>
+                <div class="text">
+                    <a href="
+                    https://drive.google.com/file/d/1gd_ujcxCUCZUE7F3j6qdTN-N5X6NNqSQ/view?usp=sharing"> Downlaod
+                        Cv</a></div>
 
-               <img src="abdo.jpg">
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
 
-        
-    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
-    <script src="audioPlayer.js"></script>
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-linkedin"></i>
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="experience" id="skills">
+        <div class="container container-5 ">
+            <div class="section-heading">
+                <h1>Skills</h1>
+            </div>
+            <div class="timeline" data-aos="zoom-in" data-aos-delay="300">
+                <ul>
+                    <li class="date">
+                        <h1>Html</h1>
+                        <div class="progressbar">
+                            <div class="bar-html Design"><span class="HTML"></span></div>
+                        </div>
+                    </li>
+                    <li class="date">
+                        <h1>css</h1>
+                        <div class="progressbar">
+                            <div class="bar-css Design"><span class="CSS"></span></div>
+                        </div>
+                    </li>
+                    <li class="date">
+                        <h1>Javascript</h1>
+                        <div class="progressbar">
+                            <div class="bar-html Design"><span class="javascript"></span></div>
+                        </div>
+                    </li>
+                    <li class=" date">
+                        <h1>Jquery</h1>
+                        <div class="progressbar">
+                            <div class="bar-html Design"><span class="Jquery"></span></div>
+                        </div>
+                    </li>
+                    <li class="date">
+                        <h1>Bootstrap</h1>
+                        <div class="progressbar">
+                            <div class="bar-html Design"><span class="Bootstrap"></span></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Services</h1>
+                <h6>What I can do for you</h6>
+            </div>
+            <div class="my-skills">
+                <div class="skill" data-aos="fade-in" data-aos-delay="300">
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h1>Web Design</h1>
+                </div>
+                <div class="skill" data-aos="fade-down" data-aos-delay="600">
+                    <div class="icon-container">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h1>Web Developement</h1>
+
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="900">
+                    <div class="icon-container">
+                        <i class="fab fa-adobe"></i>
+                    </div>
+                    <h1>graphic designer</h1>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Portfolio</h1>
+                <h6>View some of my recent work</h6>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="zoom-in-right" data-aos-delay="300">
+                    <a href="https://abdallahkhaledlotfy.github.io/Egy-Book/"> <img src="..//assets/book.PNG"
+                            alt=""></a>
+                </div>
+                <div class="portfolio-description" data-aos="zoom-in-left" data-aos-delay="600">
+                    <h6>Web Developement</h6>
+                    <h1>Egy-Book</h1>
+                    <p>
+                        This site is designed to publish books and literature .
+                    </p>
+                    <a href="https://abdallahkhaledlotfy.github.io/Egy-Book/" class="cta"> View Details </a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right" data-aos="zoom-in-right" data-aos-delay="900">
+                    <h6>Web Design</h6>
+                    <h1>Heroes Club</h1>
+                    <p>
+                        This site is designed for the gym and is equipped with a bonus course and appointments .
+                    </p>
+                    <a href="https://heroesclub.000webhostapp.com/Heroes%20Club/gym%20website/fittness-club.html"
+                        class="cta"> View
+                        Details </a>
+                </div>
+                <div class="portfolio-img" data-aos="zoom-in-left" data-aos-delay="1200">
+                    <a href="https://heroesclub.000webhostapp.com/Heroes%20Club/gym%20website/fittness-club.html"> <img
+                            src="..//assets/gym.PNG" alt=""></a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="zoom-in-right" data-aos-delay="1500">
+                    <a href="https://abdallahkhaledlotfy.github.io/Abdelrahman-Design/"> <img src="..//assets/abdo.PNG"
+                            alt=""></a>
+                </div>
+                <div class="portfolio-description" data-aos="zoom-in-left" data-aos-delay="1800">
+                    <h6>graphic designer</h6>
+                    <h1>Abdelrahman Mohamed</h1>
+                    <p>
+                        Abdelrahman is My business partner It is also a graphic design (photoshop / InDesign /
+                        Illustrator /
+                        3DMax
+                        )
+
+                    </p>
+                    <a href="https://abdallahkhaledlotfy.github.io/Abdelrahman-Design/" class="cta"> View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Let’s Work together</h6>
+            </div>
+            <form action="" data-aos="fade-up" data-aos-delay="300">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Enter your email..." required>
+                <label for="service">Services:</label>
+                <select name="services" id="service">
+                    <option value="">Web Design</option>
+                    <option value="">Web Developement</option>
+                    <option value="">Photoshop Design</option>
+                    <option value="">Web Design / Photoshop Design</option>
+                    <option value="">Web Design / Developement</option>
+                </select>
+                <label for="subject">Subject:</label>
+                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <p>&copy; 2020 Abdallah Khaled</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <!-- <script src="..//js/wow.min.js"></script>
     <script>
-        // loads the audio player
-        audioPlayer();
-    </script>
+        new WOW().init();
+    </script> -->
+    <script src="..//src/main.js"></script>
 </body>
+
 </html>
