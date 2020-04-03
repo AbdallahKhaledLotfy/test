@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Attia</title>
+    <link rel="stylesheet" type="text/css" href="music.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+</head>
+<audio src="music/ياهرم.mp3"></audio>
+
+<body>
+    <img src="images/back.jpg" alt="backgroung" id="BG">
+    <div class="mhn-player">
+        <div class="album-art"></div>
+        <div class="play-list">
+            <a href="#" class="play" data-id="1" data-title="مهرجان بونبوني ساقط في نوتيل" data-albumart="images/4.jfif"
+                data-url="music/بونبونى.mp3"></a>
+
+            <a href="#" class="play" data-id="2" data-title="شارع أيامي" data-albumart="images/2.jfif
+                " data-url="music/شارع ايامى.mp3"></a>
+
+            <a href="#" class="play" data-id="3" data-title="مهرجان عود البطل ملفوف" data-albumart="images/3.jfif
+                " data-url="music/عود البطل.mp3"></a>
+
+            <a href="#" class="play" data-id="4" data-title="مهرجان كعب الغزال" data-albumart="images/1.jfif"
+                data-url="music/كعب الغزال.mp3"></a>
+
+            <a href="#" class="play" data-id="5" data-title="مهرجان انا على وضعي " data-albumart="images/9.jfif"
+                data-url="music/انا على وشعى.mp3"></a>
+
+            <a href="#" class="play" data-id="6" data-title="مهرجان شديت اجزائي" data-albumart="images/6.jfif"
+                data-url="music/شداجزائى.mp3"></a>
+
+            <a href="#" class="play" data-id="7" data-title="يابنت قلبي" data-albumart="images/7.jfif"
+                data-url="music/يابنت قلبى.mp3"></a>
+
+            <a href="#" class="play" data-id="8" data-title="مهرجان بنت الجيران" data-albumart="images/8.jfif"
+                data-url="music/بنت الجيران.mp3""></a>
+
+            <a href=" #" class="play" data-id="9" data-title="رجوعك تاني لحياتي" data-albumart="images/10.jfif"
+                data-url="music/رجوعى تانى.mp3"></a>
+
+            <a href="#" class="play" data-id="10" data-title="مهرجان شبح المجال" data-albumart="images/5.jfif"
+                data-url="music/شبح المجال.mp3"></a>
+
+            <a href="#" class="play" data-id="11" data-title="يا هرم" data-albumart="images/11.jfif"
+                data-url="music/ياهرم.mp3"></a>
+
+            <a href="#" class="play" data-id="12" data-title="اغنية لية يا قلبي" data-albumart="images/12.jfif"
+                data-url="music/ليه يا قلبى.mp3"></a>
+
+            <a href="#" class="play" data-id="13" data-title="اغنية يا صبر طيب" data-albumart="images/13.jfif"
+                data-url="http://serveurftpnascar.free.fr/%20-%20Linkin%20Park%20-%20Numb.mp3"></a>
+
+            <a href="#" class="play" data-id="14" data-title="اغنية مهرجان دول مش بشر" data-albumart="images/14.jfif"
+                data-url="http://serveurftpnascar.free.fr/%20-%20Linkin%20Park%20-%20Numb.mp3"></a>
+
+            <a href="#" class="play" data-id="15" data-title="Numb" data-albumart="images/15.jfif"
+                data-url="http://serveurftpnascar.free.fr/%20-%20Linkin%20Park%20-%20Numb.mp3"></a>
+
+            <a href="#" class="play" data-id="16" data-title="Numb" data-albumart="images/16.jfif"
+                data-url="http://serveurftpnascar.free.fr/%20-%20Linkin%20Park%20-%20Numb.mp3"></a>
+
+            <a href="#" class="play" data-id="17" data-title="Numb" data-albumart="images/17.jfif"
+                data-url="http://serveurftpnascar.free.fr/%20-%20Linkin%20Park%20-%20Numb.mp3"></a>
+
+            <a href="#" class="play" data-id="19" data-title="Numb" data-albumart="images/18.jfif"
+                data-url="http://serveurftpnascar.free.fr/%20-%20Linkin%20Park%20-%20Numb.mp3"></a>
+
+            <a href="#" class="play" data-id="20" data-title="Numb" data-albumart="images/19.jfif"
+                data-url="http://serveurftpnascar.free.fr/%20-%20Linkin%20Park%20-%20Numb.mp3"></a>
+
+            <a href="#" class="play" data-id="21" data-title="Numb" data-albumart="images/20.jfif"
+                data-url="http://serveurftpnascar.free.fr/%20-%20Linkin%20Park%20-%20Numb.mp3"></a>
+
+            <a href="#" class="play" data-id="22" data-title="Numb" data-albumart="images/21.jfif"
+                data-url="http://serveurftpnascar.free.fr/%20-%20Linkin%20Park%20-%20Numb.mp3"></a>
+        </div>
+        <div class="audio"></div>
+        <div class="current-info">
+            <div class="song-title"></div>
+        </div>
+        <div class="controls">
+            <a href="#" class="toggle-play-list"><i class="fa fa-list-ul"></i></a>
+            <div class="duration clearfix">
+                <span class="pull-left play-position"></span>
+                <span class="pull-right"><span class="play-current-time">00:00</span> / <span
+                        class="play-total-time">00:00</span></span>
+            </div>
+            <div class="progress">
+                <div class="bar"></div>
+            </div>
+            <div class="action-button">
+                <a href="#" class="prev"><i class="fa fa-step-backward"></i></a>
+                <a href="#" class="play-pause"><i class="fa fa-pp"></i></a>
+                <a href="#" class="stop"><i class="fa fa-stop"></i></a>
+                <a href="#" class="next"><i class="fa fa-step-forward"></i></a>
+                <input type="range" class="volume" min="0" max="1" step="0.1" value="0.5" data-css="0.5">
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="music.js"></script>
+
+</body>
+
+</html>
